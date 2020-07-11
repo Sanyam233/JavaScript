@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav,
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    margin-left: 30px;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: #2c3e50;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+.jumbotron {
+    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    height: 700px;
+}
+
+#content {
+    text-align: center;
+    padding-top: 12%;
+    text-shadow: 0px 4px 3px rbga(0, 0, 0, 0.4), 0px 8px 13px rbga(0, 0, 0, 0.1), 0px 18px 23px rbga(0, 0, 0, 0.1);
+}
+
+hr {
+    width: 600px;
+}
+
+#content h1 {
+    font-size: 5em;
+}
